@@ -1,0 +1,28 @@
+{
+  "name": "syncerino",
+  "version": "1.0.0",
+  "description": "Utility that helps you sync your silly wow soundboard addon with your guildmates",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc --build",
+    "watch": "tsc -w",
+    "start": "npm run build && electron ./dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brrrdy/syncerino.git"
+  },
+  "author": "Cody Zornes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brrrdy/syncerino/issues"
+  },
+  "homepage": "https://github.com/brrrdy/syncerino#readme",
+  "devDependencies": {
+    "@tsconfig/node10": "^1.0.7",
+    "electron": "^11.1.1"
+  },
+  "dependencies": {
+    "typescript": "^4.1.3"
+  }
+}
