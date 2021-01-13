@@ -1,1 +1,1 @@
-# syncerino
+# my-electron-app

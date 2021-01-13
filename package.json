@@ -1,7 +1,7 @@
 {
-  "name": "syncerino",
-  "version": "1.0.0",
-  "description": "Utility that helps you sync your silly wow soundboard addon with your guildmates",
+  "name": "my-electron-app",
+  "version": "0.0.1",
+  "description": "Insert description here",
   "main": "app.js",
   "scripts": {
     "build": "tsc --build",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brrrdy/syncerino.git"
+    "url": "git+https://github.com/brrrdy/electron-typescript-app.git"
   },
   "author": "Cody Zornes",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brrrdy/syncerino/issues"
+    "url": "https://github.com/brrrdy/electron-typescript-app/issues"
   },
-  "homepage": "https://github.com/brrrdy/syncerino#readme",
+  "homepage": "https://github.com/brrrdy/electron-typescript-app#readme",
   "devDependencies": {
     "@tsconfig/node10": "^1.0.7",
     "electron": "^11.1.1"
